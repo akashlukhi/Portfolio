@@ -5,6 +5,7 @@ import gzipPlugin from "rollup-plugin-gzip";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: "Portfolio",
   build: {
     outDir: 'build',
     // ...
