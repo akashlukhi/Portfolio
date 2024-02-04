@@ -19,7 +19,7 @@ const HeaderIntro: React.FC = () => {
       <RadialGradient scale="scale-y-125" opacity="opacity-30" />
 
       <img
-        src="Portfolio/src/assets/img/akash.PNG"
+        src="/Portfolio/src/assets/img/akash.PNG"
         alt="Profile Picture"
         className="w-1/6 drop-shadow-2xl rounded-full shadow-2xl max-lg:w-3/4"
       />
