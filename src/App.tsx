@@ -7,7 +7,7 @@ import ThemeContextProvider from "./context/theme-context";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/Portfolio">
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Routes>
