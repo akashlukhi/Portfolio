@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import RadialGradient from "./RadialGradient";
+import profilePicture from "../assets/img/akash.png";
 import { useSectionInView } from "../assets/lib/hooks";
 import { useActiveSectionContext } from "../context/active-section-context";
 import { BsMouse } from "react-icons/bs";
@@ -19,7 +20,7 @@ const HeaderIntro: React.FC = () => {
       <RadialGradient scale="scale-y-125" opacity="opacity-30" />
 
       <img
-        src="/Portfolio/src/assets/img/akash.PNG"
+        src={profilePicture}
         alt="Profile Picture"
         className="w-1/6 drop-shadow-2xl rounded-full shadow-2xl max-lg:w-3/4"
       />
